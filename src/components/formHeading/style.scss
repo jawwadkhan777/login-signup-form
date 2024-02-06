@@ -1,0 +1,39 @@
+.heading {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #112A46;
+    font-size: 2rem;
+    word-spacing: -20px;
+    margin-bottom: 40px;
+    h1 {
+        border-bottom: 0.5rem solid #112A46;
+        display: inline;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .heading {
+        font-size: 1.2rem;
+        h1 {
+            border-bottom: 0.3rem solid #112A46;
+        }
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .heading {
+        font-size: 1.4rem;
+        h1 {
+            border-bottom: 0.35rem solid #112A46;
+        }
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .heading {
+        font-size: 1.6rem;
+        h1 {
+            border-bottom: 0.38rem solid #112A46;
+        }
+    }
+}

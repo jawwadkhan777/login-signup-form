@@ -1,0 +1,46 @@
+.instruction {
+    p {
+        color: #112A46;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1rem;
+        margin-bottom: 40px;
+        position: static;
+    }
+
+    .alert {
+        cursor: pointer;
+        font-weight: bold;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 360px) {
+    .instruction {
+        p {
+            font-size: 0.6rem;
+        }
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 400px) {
+    .instruction {
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .instruction {
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .instruction {
+        p {
+            font-size: 0.95rem;
+        }
+    }
+}
